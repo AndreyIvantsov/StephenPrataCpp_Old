@@ -32,8 +32,10 @@ int main()
     cout << "ФАМИЛИЯ И ИМЯ 1\n";
     cout << "------------------------------------------------\n";
 
-    cout << "Введите фамилию: "; cin >> firstName;
-    cout << "Введите имя    : "; cin >> lastName;
+    cout << "Введите фамилию: ";
+    cin >> firstName;
+    cout << "Введите имя    : ";
+    cin >> lastName;
 
     strcat(result, lastName);
     strcat(result, ", ");
